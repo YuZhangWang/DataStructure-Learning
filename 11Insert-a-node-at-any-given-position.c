@@ -6,7 +6,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main() {
+struct Node {
+    int data;
+    struct Node *next;
+};
+struct Node *head;
 
+int main() {
+    struct Node *head = NULL;  //empty list
     return 0;
 };
