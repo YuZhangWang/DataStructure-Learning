@@ -1,5 +1,5 @@
-CMakeFiles/01Test.dir/01Test.cpp.obj: \
- D:\Code\C&C++\78DataStructure\01Test.cpp \
+CMakeFiles/02SiZiLianZhu.dir/02SiZiLianZhu.cpp.obj: \
+ D:\Code\C&C++\78DataStructure\02SiZiLianZhu.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
