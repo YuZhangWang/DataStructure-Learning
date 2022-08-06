@@ -20,7 +20,8 @@ char _mapName[32][50] = {"行政楼", "实验楼D", "教学楼A", "篮球场", "足球场", "A4
 //距离信息,_distance[0][1] = 50;代表从下标为0到下表为1地点距离为50
 int _distance[32][32] = {0};
 //边表结点
-typedef struct EdgeNode {
+typedef struct EdgeNode
+{
     //顶点对应的下标
     int adjvex;
     //权值
@@ -30,7 +31,8 @@ typedef struct EdgeNode {
 } edgeNode;
 
 //顶点表结点
-typedef struct VertexNode {
+typedef struct VertexNode
+{
     //顶点数据
     char data[50];
     //边表头指针
@@ -38,16 +40,16 @@ typedef struct VertexNode {
 } VertexNode, AdjList[100];
 
 //集合
-typedef struct {
+typedef struct
+{
     AdjList adjList;
     //顶点数和边数
     int numVertexes, numEdges;
 } GraphAdjList;
 
-class AdjacencyList {
+class AdjacencyList
+{
 public:
-
-
     void ShowALGraph(GraphAdjList *G);
 
     void Test();
@@ -66,24 +68,32 @@ public:
 };
 
 //创建地图
-void AdjacencyList::CreateALGraph(GraphAdjList *G) {
+void AdjacencyList::CreateALGraph(GraphAdjList *G)
+{
     edgeNode *e;
     //读入顶点信息，建立顶点表
-    for (int i = 0; i < G->numVertexes; i++) {
+    for (int i = 0; i < G->numVertexes; i++)
+    {
         //读入顶点信息
         strcpy(G->adjList[i].data, _mapName[i]);
         //将边表置为空表
         G->adjList[i].firstedge = NULL;
     }
     //建立边表（头插法）
-    for (int i = 0; i < G->numVertexes; i++) {
-        for (int j = 0; j < i; j++) {
+    for (int i = 0; i < G->numVertexes; i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
             int temp;
-            if (_distance[i][j] != 0 || _distance[j][i] != 0) {
-                if (_distance[i][j] != 0) {
+            if (_distance[i][j] != 0 || _distance[j][i] != 0)
+            {
+                if (_distance[i][j] != 0)
+                {
                     temp = _distance[i][j];
                     _distance[j][i] = _distance[i][j];
-                } else {
+                }
+                else
+                {
                     temp = _distance[j][i];
                     _distance[i][j] = _distance[j][i];
                 }
@@ -106,26 +116,30 @@ void AdjacencyList::CreateALGraph(GraphAdjList *G) {
 
 }
 
-void AdjacencyList::Test() {
+void AdjacencyList::Test()
+{
     cout << "ALL IS OK." << endl;
 }
 
-void AdjacencyList::ShowALGraph(GraphAdjList *G) {
-    for (int i = 0; i < G->numVertexes; i++) {
+void AdjacencyList::ShowALGraph(GraphAdjList *G)
+{
+    for (int i = 0; i < G->numVertexes; i++)
+    {
         cout << "顶点" << i << ": " << G->adjList[i].data << "--firstedge--";
         edgeNode *p = new edgeNode;
         p = G->adjList[i].firstedge;
-        while (p) {
+        while (p)
+        {
             cout << p->adjvex << "--Weight: " << p->weight << "--Next--";
             p = p->next;
         }
         cout << "--NULL" << endl;
     }
-
 }
 
 //初始化地图基本数据
-void AdjacencyList::InitMap(GraphAdjList *G) {
+void AdjacencyList::InitMap(GraphAdjList *G)
+{
     //输入顶点数和边数
     G->numVertexes = 32;
     G->numEdges = 59;
@@ -219,21 +233,29 @@ void AdjacencyList::InitMap(GraphAdjList *G) {
     _distance[30][31] = 100;
 }
 
-void AdjacencyList::ShortestPath_Floyd(GraphAdjList *G, int P[32][32], int D[32][32]) {
+void AdjacencyList::ShortestPath_Floyd(GraphAdjList *G, int P[32][32], int D[32][32])
+{
     //初始化D与P
-    for (int v = 0; v < G->numVertexes; ++v) {
-        for (int w = 0; w < G->numVertexes; ++w) {
-            if (_distance[v][w] == 0 && v != w) {
+    for (int v = 0; v < G->numVertexes; ++v)
+    {
+        for (int w = 0; w < G->numVertexes; ++w)
+        {
+            if (_distance[v][w] == 0 && v != w)
+            {
                 _distance[v][w] = 10000;
             }
             D[v][w] = _distance[v][w];
             P[v][w] = w;
         }
     }
-    for (int k = 0; k < G->numVertexes; ++k) {
-        for (int v = 0; v < G->numVertexes; ++v) {
-            for (int w = 0; w < G->numVertexes; ++w) {
-                if (D[v][w] > D[v][k] + D[k][w]) {
+    for (int k = 0; k < G->numVertexes; ++k)
+    {
+        for (int v = 0; v < G->numVertexes; ++v)
+        {
+            for (int w = 0; w < G->numVertexes; ++w)
+            {
+                if (D[v][w] > D[v][k] + D[k][w])
+                {
                     D[v][w] = D[v][k] + D[k][w];
                     P[v][w] = P[v][k];
                 }
@@ -243,13 +265,15 @@ void AdjacencyList::ShortestPath_Floyd(GraphAdjList *G, int P[32][32], int D[32]
 
 }
 
-void AdjacencyList::ShowShortestResult(int originPos, int endPos) {
+void AdjacencyList::ShowShortestResult(int originPos, int endPos)
+{
     int temp;
     cout << "地点" << _mapName[originPos] << "到地点" << _mapName[endPos] << "最短距离为" << ShortestPathvalue[originPos][endPos]
          << endl;
     temp = ShortestPathmatrix[originPos][endPos];
     cout << "具体路径为：" << _mapName[originPos] << "——>";
-    while (temp != endPos) {
+    while (temp != endPos)
+    {
         cout << _mapName[temp] << "——>";
         temp = ShortestPathmatrix[temp][endPos];
     }
@@ -257,7 +281,8 @@ void AdjacencyList::ShowShortestResult(int originPos, int endPos) {
 }
 
 
-int main() {
+int main()
+{
     AdjacencyList adjacencyList;
     int originPos, endPos;
     GraphAdjList *GA = new GraphAdjList;
@@ -266,7 +291,8 @@ int main() {
     adjacencyList.CreateALGraph(GA);
     adjacencyList.ShortestPath_Floyd(GA, ShortestPathmatrix, ShortestPathvalue);
     cout << "地图所有数据已经初始化完成,地图图像已显示" << endl;
-    while (1) {
+    while (1)
+    {
         cout << "请按照图片选择你想去的地方，输入起始点和目的地的序号，以空格间隔。" << endl;
         cout << "标准格式 ：0 1关闭图片，回车" << endl;
         cout << "若输入已完成，请关闭图片。再按下回车键，即可显示路径。" << endl;
@@ -274,7 +300,6 @@ int main() {
         cin >> originPos >> endPos;
         adjacencyList.ShowShortestResult(originPos, endPos);
     }
-
     return 0;
 }
  

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Code/C&C++/78DataStructure/09C++_JSON_Parser_1.cpp" "CMakeFiles/09C++_JSON_Parser_1.dir/09C++_JSON_Parser_1.cpp.obj" "gcc" "CMakeFiles/09C++_JSON_Parser_1.dir/09C++_JSON_Parser_1.cpp.obj.d"
+  "D:/Code/C&C++/78DataStructure/09CPP-JSON-Parser.cpp" "CMakeFiles/09C++_JSON_Parser_1.dir/09CPP-JSON-Parser.cpp.obj" "gcc" "CMakeFiles/09C++_JSON_Parser_1.dir/09CPP-JSON-Parser.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "78DataStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "02SiZiLianZhu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02SiZiLianZhu-Debug-0e5e6fb5ee8e8fd74efb.json",
+					"name" : "02SiZiLianZhu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03SchoolGuide::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03SchoolGuide-Debug-65b7ebae4c7a9eb1c928.json",
+					"name" : "03SchoolGuide",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04StudentInformationManage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04StudentInformationManage-Debug-22a3f992eff477035df7.json",
+					"name" : "04StudentInformationManage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05BinaryConversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05BinaryConversion-Debug-79d4afc8c6a71f6a530e.json",
+					"name" : "05BinaryConversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06ParenthesisMatching::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06ParenthesisMatching-Debug-a4c87396d2a60d19b46e.json",
+					"name" : "06ParenthesisMatching",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07BinarySortTreeOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07BinarySortTreeOperation-Debug-79fd1ac6e1af086027db.json",
+					"name" : "07BinarySortTreeOperation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08InsertTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08InsertTest-Debug-60fa1b9ee87c6580cefa.json",
+					"name" : "08InsertTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09CPP-JSON-Parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09CPP-JSON-Parser-Debug-c5d7592dbbf0fde7e90b.json",
+					"name" : "09CPP-JSON-Parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10Inserting-a-node-at-beginning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10Inserting-a-node-at-beginning-Debug-3cecc27edc106b40a128.json",
+					"name" : "10Inserting-a-node-at-beginning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11Insert-a-node-at-any-given-position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11Insert-a-node-at-any-given-position-Debug-23c309d35cc7e2d35689.json",
+					"name" : "11Insert-a-node-at-any-given-position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12One-OrderBinary-Tree-Becomes-Two-Order-Binary-Tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12One-OrderBinary-Tree-Becomes-Two-Order-Binary-Tree-Debug-6ee618a95b404f00b406.json",
+					"name" : "12One-OrderBinary-Tree-Becomes-Two-Order-Binary-Tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "78DataStructure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-78DataStructure-Debug-a4c09b91c8ae84c7067e.json",
+					"name" : "78DataStructure",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code/C&C++/78DataStructure/cmake-build-debug",
+		"source" : "D:/Code/C&C++/78DataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

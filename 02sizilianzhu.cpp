@@ -40,7 +40,8 @@ char CGobang::achBoard[4][4] = {' '};
 int CGobang::nSize = 4;
 int CGobang::nDraw = 0;
 
-void CGobang::Draw() {
+void CGobang::Draw()
+{
     cout << "\n\n\t\tÆ½¾Ö!\n\n";
     nDraw++;
 }
@@ -74,9 +75,12 @@ void CGobang::PrintBoard() //Êä³öÆåÅÌ
 int CGobang::GetFull() //ÅÐ¶ÏÆåÅÌÊÇ·ñ²¼ÂúÆå×Ó£¬ÈôÊÇ·µ»Ø1
 {
     int flag = 1;
-    for (int i = 0; i < nSize; i++) {
-        for (int j = 0; j < nSize; j++) {
-            if (achBoard[i][j] == ' ') {
+    for (int i = 0; i < nSize; i++)
+    {
+        for (int j = 0; j < nSize; j++)
+        {
+            if (achBoard[i][j] == ' ')
+            {
                 flag = 0;
                 break;
             }
@@ -170,7 +174,8 @@ int JudgePlay(CGobang &SideX, CGobang &SideO) //Ã¿ÏÂ1²½Òª½øÐÐÊäÓ®µÄÅÐ¶Ï£¬ÓÐ½á¹ûÔ
 
 void Play(CGobang &SideX, CGobang &SideO) //¿ªÊ¼Ò»¾ÖÓÎÏ·
 {
-    while (1) {
+    while (1)
+    {
         CGobang::PrintBoard(); //Êä³öÆåÅÌ
 
         SideX.PlayTurn(); //X·½ÏÂÆå
@@ -205,7 +210,8 @@ int main() {
     cin.get();
     string strChoice;
 
-    do {
+    do
+    {
         CGobang::InitialBoard(); //³õÊ¼»¯ÆåÅÌ
         Play(SideX, SideO); //¿ªÊ¼ÏÂÒ»¾Ö
         cout << "ÊÇ·ñ¼ÌÐø£¨Y/N£©£¿";
