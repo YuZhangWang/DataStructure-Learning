@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-give
 CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.obj: ../11Insert-a-node-at-any-given-position.cpp
 CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.obj: CMakeFiles/11Insert-a-node-at-any-given-position.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C&C++\78DataStructure\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.obj -MF CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.obj.d -o CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.obj -c "D:\Code\C&C++\78DataStructure\11Insert-a-node-at-any-given-position.cpp"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.obj -MF CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.obj.d -o CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.obj -c "D:\Code\C&C++\78DataStructure\11Insert-a-node-at-any-given-position.cpp"
 
 CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C&C++\78DataStructure\11Insert-a-node-at-any-given-position.cpp" > CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C&C++\78DataStructure\11Insert-a-node-at-any-given-position.cpp" > CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.i
 
 CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/11Insert-a-node-at-any-given-position.dir/11Insert-a-node-at-any-given-position.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C&C++\78DataStructure\11Insert-a-node-at-any-given-position.cpp" -o CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C&C++\78DataStructure\11Insert-a-node-at-any-given-position.cpp" -o CMakeFiles\11Insert-a-node-at-any-given-position.dir\11Insert-a-node-at-any-given-position.cpp.s
 
 # Object files for target 11Insert-a-node-at-any-given-position
 11Insert__a__node__at__any__given__position_OBJECTS = \

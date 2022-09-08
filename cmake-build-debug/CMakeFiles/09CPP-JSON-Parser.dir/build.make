@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.obj: CMakeFiles/09CPP-JSO
 CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.obj: ../09CPP-JSON-Parser.cpp
 CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.obj: CMakeFiles/09CPP-JSON-Parser.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C&C++\78DataStructure\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.obj -MF CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.obj.d -o CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.obj -c "D:\Code\C&C++\78DataStructure\09CPP-JSON-Parser.cpp"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.obj -MF CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.obj.d -o CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.obj -c "D:\Code\C&C++\78DataStructure\09CPP-JSON-Parser.cpp"
 
 CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C&C++\78DataStructure\09CPP-JSON-Parser.cpp" > CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C&C++\78DataStructure\09CPP-JSON-Parser.cpp" > CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.i
 
 CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/09CPP-JSON-Parser.dir/09CPP-JSON-Parser.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C&C++\78DataStructure\09CPP-JSON-Parser.cpp" -o CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C&C++\78DataStructure\09CPP-JSON-Parser.cpp" -o CMakeFiles\09CPP-JSON-Parser.dir\09CPP-JSON-Parser.cpp.s
 
 # Object files for target 09CPP-JSON-Parser
 09CPP__JSON__Parser_OBJECTS = \
